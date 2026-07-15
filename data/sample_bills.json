@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "amount": 200.0,
+    "description": "聚餐",
+    "participants": ["我", "张三", "李四"],
+    "payer": "我",
+    "shares": {},
+    "note": "",
+    "timestamp": "2025-07-01 18:30:00",
+    "settled": false
+  },
+  {
+    "id": 2,
+    "amount": 30.0,
+    "description": "打车",
+    "participants": ["我", "张三"],
+    "payer": "张三",
+    "shares": {},
+    "note": "",
+    "timestamp": "2025-07-01 22:00:00",
+    "settled": false
+  },
+  {
+    "id": 3,
+    "amount": 75.0,
+    "description": "买奶茶",
+    "participants": ["我", "张三", "李四", "王五"],
+    "payer": "李四",
+    "shares": {
+      "我": 25,
+      "张三": 25,
+      "李四": 15,
+      "王五": 10
+    },
+    "note": "李四和王五喝的小杯",
+    "timestamp": "2025-07-02 15:00:00",
+    "settled": false
+  },
+  {
+    "id": 4,
+    "id_test": 4,
+    "amount": 360.0,
+    "description": "KTV",
+    "participants": ["我", "张三", "李四", "王五", "赵六"],
+    "payer": "我",
+    "shares": {},
+    "note": "周末五人KTV",
+    "timestamp": "2025-07-03 20:00:00",
+    "settled": false
+  },
+  {
+    "id": 5,
+    "amount": 88.0,
+    "description": "午餐",
+    "participants": ["我", "李四"],
+    "payer": "李四",
+    "shares": {},
+    "note": "两人AA",
+    "timestamp": "2025-07-04 12:00:00",
+    "settled": false
+  }
+]
